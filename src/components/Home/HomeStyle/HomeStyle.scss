@@ -1,0 +1,146 @@
+.homeNavbar {
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 1px 1px 6px rgb(208, 201, 201);
+  display: flex;
+  align-items: center;
+
+  .navbar_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .washing_card_logo {
+      background-color: #212529;
+      color: white;
+      font-size: 1.3rem;
+      padding: 0.5rem 1rem;
+      border-radius: 100px;
+      cursor: pointer;
+    }
+    .navbar_menu {
+      font-family: alksanet;
+      font-size: 1.1rem;
+      ul {
+        display: flex;
+        gap: 2rem;
+        color: rgb(120, 117, 117);
+        font-weight: bold;
+
+        li {
+          cursor: pointer;
+        }
+        .phoneNumber {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+        }
+      }
+    }
+  }
+}
+
+.home {
+  .home_background_image {
+    margin-top: 90px;
+    width: 100%;
+    height: 10rem;
+  }
+}
+
+.ourTechnologies {
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+  border-bottom: 2px solid #0dcaf0;
+  .title_container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: alksanet;
+    font-size: 1.2rem;
+    color: #212529;
+    .blue_rectangle {
+      width: 10px;
+      height: 40px;
+      background-color: #0dcaf0;
+    }
+  }
+  .ourTechnologies_container {
+    display: flex;
+    .ourTechnologies_container_left {
+      flex: 1;
+      font-family: alksanet;
+      color: #2f3336;
+
+      .carX {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+      }
+      ul {
+        padding: 0;
+        li {
+          margin: 0.8rem 0;
+          line-height: 1.7rem;
+        }
+      }
+    }
+    .ourTechnologies_container_right {
+      flex: 1;
+      padding: 1rem;
+    }
+  }
+}
+
+.hotItWorks {
+
+  .title_container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: alksanet;
+    font-size: 1.2rem;
+    color: #212529;
+    .blue_rectangle {
+      width: 10px;
+      height: 40px;
+      background-color: #0dcaf0;
+    }
+  }
+  padding-top: 6rem;
+  nav {
+    background-color: pink;
+    ul {
+      width: 100%;
+      display: flex;
+      height: 4rem;
+      padding: 0;
+
+      li {
+        font-family: alksanet;
+        flex: 1;
+        line-height: 1.2rem;
+        padding: 0rem 1rem;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #0d6efd;
+       cursor: pointer;
+      }
+    }
+  }
+}
+
+//for all  components
+.container {
+  width: 85%;
+  margin: auto;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
