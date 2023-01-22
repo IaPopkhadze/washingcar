@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/washingcar/static/css/main.91d2bc1a.css",
+    "main.js": "/washingcar/static/js/main.03bc0d2b.js",
+    "static/js/787.0b765175.chunk.js": "/washingcar/static/js/787.0b765175.chunk.js",
+    "static/media/alk-sanet.ttf": "/washingcar/static/media/alk-sanet.00c92caa565063e4c9f0.ttf",
+    "index.html": "/washingcar/index.html",
+    "main.91d2bc1a.css.map": "/washingcar/static/css/main.91d2bc1a.css.map",
+    "main.03bc0d2b.js.map": "/washingcar/static/js/main.03bc0d2b.js.map",
+    "787.0b765175.chunk.js.map": "/washingcar/static/js/787.0b765175.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91d2bc1a.css",
+    "static/js/main.03bc0d2b.js"
+  ]
+}
